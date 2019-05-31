@@ -4,15 +4,15 @@ import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
-import { AlertPage } from './alert.page';
+import { CheckPage } from './check.page';
 
 //<--- List of Components to use -->//
 import { ComponentsModule } from '../../components/components.module';
 
-const routes: Routes = [
+const routes : Routes = [
   {
-    path: '',
-    component: AlertPage
+      path: '',
+      component: CheckPage
   }
 ];
 
@@ -20,10 +20,13 @@ const routes: Routes = [
   imports: [
     CommonModule,
     FormsModule,
-    IonicModule,
     RouterModule.forChild(routes),
+    IonicModule,
     ComponentsModule
   ],
-  declarations: [AlertPage]
+  declarations: [CheckPage]
 })
-export class AlertPageModule {}
+
+export class CheckPageModule {
+
+}

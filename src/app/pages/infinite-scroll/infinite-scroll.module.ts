@@ -4,15 +4,15 @@ import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
-import { AlertPage } from './alert.page';
+import { InfiniteScrollPage } from './infinite-scroll.page';
 
-//<--- List of Components to use -->//
+// <-- List of components to use -->
 import { ComponentsModule } from '../../components/components.module';
 
 const routes: Routes = [
   {
     path: '',
-    component: AlertPage
+    component: InfiniteScrollPage
   }
 ];
 
@@ -24,6 +24,8 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     ComponentsModule
   ],
-  declarations: [AlertPage]
+  declarations: [InfiniteScrollPage]
 })
-export class AlertPageModule {}
+export class InfiniteScrollPageModule {
+
+}

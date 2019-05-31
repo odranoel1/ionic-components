@@ -1,0 +1,26 @@
+<app-header titulo="Grid Page"></app-header>
+
+<ion-content padding fullscreen>
+  <ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let col of [1,1,1,1,1,1,1,1,1,1,1,1]; let key = index">
+        {{ key + 1}}
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col *ngFor="let col of [1,1,1,1,1,1,1,1,1,1,1,1];">
+        <ion-card size-lg="3" size-md="4" size-sm="6" size-xs="12">
+          <ion-img src="/assets/shapes.svg"></ion-img>
+          <ion-card-header>
+            <ion-card-title>Blog</ion-card-title>
+            <ion-card-subtitle>Create beutiful app in Ionic</ion-card-subtitle>
+            <ion-card-content>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ipsam repudiandae cupiditate eius! Tempore, minus ab eaque fugiat adipisci expedita asperiores! Iusto sapiente, ratione sed veniam velit ipsum natus dolorum.
+            </ion-card-content>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

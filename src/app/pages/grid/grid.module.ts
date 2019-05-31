@@ -4,15 +4,15 @@ import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
-import { AlertPage } from './alert.page';
+import { GridPage } from './grid.page';
 
-//<--- List of Components to use -->//
+// <-- List of Components to use -->
 import { ComponentsModule } from '../../components/components.module';
 
 const routes: Routes = [
   {
     path: '',
-    component: AlertPage
+    component: GridPage
   }
 ];
 
@@ -24,6 +24,8 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     ComponentsModule
   ],
-  declarations: [AlertPage]
+  declarations: [GridPage]
 })
-export class AlertPageModule {}
+export class GridPageModule {
+
+}

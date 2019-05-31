@@ -4,26 +4,27 @@ import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
-import { AlertPage } from './alert.page';
+import { ButtonsPage } from './buttons.page';
 
 //<--- List of Components to use -->//
-import { ComponentsModule } from '../../components/components.module';
 
-const routes: Routes = [
+const routes : Routes = [
   {
     path: '',
-    component: AlertPage
+    component: ButtonsPage
   }
 ];
 
-@NgModule({
+@NgModule ({
   imports: [
     CommonModule,
     FormsModule,
-    IonicModule,
     RouterModule.forChild(routes),
-    ComponentsModule
+    IonicModule,
   ],
-  declarations: [AlertPage]
+  declarations: [ButtonsPage]
 })
-export class AlertPageModule {}
+
+export class ButtonsPageModule {
+
+}

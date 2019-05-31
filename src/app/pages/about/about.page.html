@@ -1,20 +1,10 @@
-<app-header titulo="about page"></app-header>
+<app-header titulo="Components page"></app-header>
 
-<ion-content>
+<ion-content padding>
 
-  <p>About Us</p>
-  <span>We are an excellent company of IT</span>
+  <p>A simple list of components</p>
 
-  <!-- <ion-list>
-    <ion-item routerLink="/">
-      <ion-label>Home</ion-label>
-    </ion-item>
-    <ion-item routerLink="/alert">
-      <ion-label>Alert</ion-label>
-    </ion-item>
-  </ion-list> -->
   <ion-list>
-
     <ion-item *ngFor="let a of componentes" [routerLink]="a.redirectTo">
       <ion-icon slot="start" [name] = "a.icon"></ion-icon>
       <ion-label>{{ a.name }}</ion-label>

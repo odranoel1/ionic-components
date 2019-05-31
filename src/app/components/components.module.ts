@@ -17,4 +17,6 @@ import { HeaderComponent } from './header/header.component';
     IonicModule
   ]
 })
-export class ComponentsModule { }
+export class ComponentsModule {
+  
+}

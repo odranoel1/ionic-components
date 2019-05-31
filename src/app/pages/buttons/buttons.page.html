@@ -1,0 +1,59 @@
+<ion-header>
+
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Buttons Page</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button color="primary">
+        <ion-icon name="star"></ion-icon>
+      </ion-button>
+
+      <ion-button color="primary">
+        <ion-icon name="heart"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content padding>
+
+  <ion-button expand="full" size="small" >small</ion-button>
+  <ion-button expand="full" size="default" >normal</ion-button>
+  <ion-button expand="full" size="large" >large</ion-button>
+
+  <ion-button class="mt-2" size="small" >small</ion-button>
+  <ion-button class="mt-2" size="default" >normal</ion-button>
+  <ion-button class="mt-2" size="large" >large</ion-button>
+
+  <!-- Anchor -->
+  <ion-button class="mt-2" expand="full" routerLink="/alert" color="tertiary">
+    Go to Alert
+  </ion-button>
+
+  <!-- ion-row + ion-col -->
+  <ion-grid>
+    <ion-row class="mt-2">
+      <ion-col>
+        <ion-button expand="full" routerLink="/alert" color="primary">
+          Go to Avatar
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button expand="full" routerLink="/actionsheet" color="secondary">
+          Go to Action Sheet
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!-- Fill -->
+  <ion-button class="mt-2" fill="clear"> Clear </ion-button>
+  <ion-button class="mt-2" fill="outline"> Outline </ion-button>
+  <ion-button class="mt-2" fill="solid"> Solid </ion-button>
+
+</ion-content>
