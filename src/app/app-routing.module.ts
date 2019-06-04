@@ -16,7 +16,8 @@ const routes: Routes = [
   { path: 'fab', loadChildren: './pages/fab/fab.module#FabPageModule'},
   { path: 'grid', loadChildren: './pages/grid/grid.module#GridPageModule' },
   { path: 'infinite-scroll', loadChildren: './pages/infinite-scroll/infinite-scroll.module#InfiniteScrollPageModule' },
-  { path: 'inputs', loadChildren: './pages/inputs/inputs.module#InputsPageModule' }
+  { path: 'inputs', loadChildren: './pages/inputs/inputs.module#InputsPageModule' },
+  { path: 'list', loadChildren: './pages/list/list.module#ListPageModule' }
 ];
 
 @NgModule({

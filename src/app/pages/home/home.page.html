@@ -1,5 +1,16 @@
 <ion-header>
   <ion-toolbar>
+    <!-- <ion-buttons slot="end">
+      <ion-button (click)="toggleMenu()">
+        <ion-icon slot="icon-only" name="menu"></ion-icon>
+      </ion-button>
+    </ion-buttons> -->
+    <!-- Easy way to make a hamburguer button -->
+    <ion-menu-button
+      slot="end"
+      color="dark"
+      menu="primerMenu">
+    </ion-menu-button>
     <ion-title>
       Ionic Blank
     </ion-title>

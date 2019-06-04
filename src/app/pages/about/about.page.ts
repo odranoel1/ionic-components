@@ -10,7 +10,7 @@ export class AboutPage implements OnInit {
 
   componentes: ListOrder[] = [
     {
-      icon: 'appstore',
+      icon: 'american-football',
       name: 'Home Page',
       redirectTo: '/home',
     },
@@ -20,12 +20,12 @@ export class AboutPage implements OnInit {
       redirectTo: '/actionsheet',
     },
     {
-      icon: 'appstore',
+      icon: 'beaker',
       name: 'Alert Page',
       redirectTo: '/alert',
     },
     {
-      icon: 'appstore',
+      icon: 'radio-button-on',
       name: 'Avatar Page',
       redirectTo: '/avatar',
     },
@@ -35,7 +35,7 @@ export class AboutPage implements OnInit {
       redirectTo: '/buttons',
     },
     {
-      icon: 'appstore',
+      icon: 'card',
       name: 'Card Page',
       redirectTo: '/card',
     },
@@ -45,7 +45,7 @@ export class AboutPage implements OnInit {
       redirectTo: '/check',
     },
     {
-      icon: 'appstore',
+      icon: 'calendar',
       name: 'Datetime Page',
       redirectTo: '/datetime',
     },
@@ -68,6 +68,11 @@ export class AboutPage implements OnInit {
       icon: 'hammer',
       name: 'Inputs Page',
       redirectTo: '/inputs'
+    },
+    {
+      icon: 'list',
+      name: 'List Sliding Page',
+      redirectTo: '/list'
     }
   ];
 

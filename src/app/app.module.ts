@@ -11,6 +11,9 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { ComponentsModule } from './components/components.module';
 
+//Hacer peticiones por Http
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -18,7 +21,8 @@ import { ComponentsModule } from './components/components.module';
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,
-    ComponentsModule
+    ComponentsModule,
+    HttpClientModule
   ],
   providers: [
     StatusBar,
