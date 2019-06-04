@@ -17,7 +17,9 @@ const routes: Routes = [
   { path: 'grid', loadChildren: './pages/grid/grid.module#GridPageModule' },
   { path: 'infinite-scroll', loadChildren: './pages/infinite-scroll/infinite-scroll.module#InfiniteScrollPageModule' },
   { path: 'inputs', loadChildren: './pages/inputs/inputs.module#InputsPageModule' },
-  { path: 'list', loadChildren: './pages/list/list.module#ListPageModule' }
+  { path: 'list', loadChildren: './pages/list/list.module#ListPageModule' },
+  { path: 'list-reorder', loadChildren: './pages/list-reorder/list-reorder.module#ListReorderPageModule' },
+  { path: 'loading', loadChildren: './pages/loading/loading.module#LoadingPageModule' }
 ];
 
 @NgModule({

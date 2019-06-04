@@ -73,6 +73,16 @@ export class AboutPage implements OnInit {
       icon: 'list',
       name: 'List Sliding Page',
       redirectTo: '/list'
+    },
+    {
+      icon: 'reorder',
+      name: 'List Reorder Page',
+      redirectTo: '/list-reorder'
+    },
+    {
+      icon: 'refresh-circle',
+      name: 'Loading Page',
+      redirectTo: '/loading'
     }
   ];
 
